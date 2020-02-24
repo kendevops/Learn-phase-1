@@ -1,0 +1,19 @@
+{
+  "name": "learn-phase-1",
+  "version": "1.0.0",
+  "description": "A learning Journey with Quber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendevops/Learn-phase-1.git"
+  },
+  "author": "Kenneth Aladi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kendevops/Learn-phase-1/issues"
+  },
+  "homepage": "https://github.com/kendevops/Learn-phase-1#readme"
+}
