@@ -17,6 +17,7 @@ body {
 img {
   height: 100px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 #form {
@@ -28,7 +29,9 @@ img {
 }
 
 #form h2 {
+  font-family: sans-serif;
   text-align: center;
+  padding: 30px;
 }
 
 input {
@@ -37,7 +40,7 @@ input {
   display: block;
   width: 100%;
   padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
   font-size: 14px;
 }
 
@@ -52,4 +55,15 @@ button {
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+}
+
+.signup {
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(224, 222, 222);
+}
+
+.signup a {
+  text-decoration: none;
+  color: #fff;
 }
