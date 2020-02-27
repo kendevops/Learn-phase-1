@@ -4,8 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quber</title>
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
+    <header>
+      <img src="img/paystack-logo.png" alt="Logo" />
+    </header>
+    <section id="login">
+      <form action="" id="form">
+        <h2>LOGIN</h2>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+
+        <button type="submit">Login to your account</button>
+      </form>
+      <div id="signup" class="signup">
+        <p>New to Paystack? <a href="#">Sign up</a></p>
+        <a href="#">Forgot your password?</a>
+      </div>
+    </section>
   </body>
 </html>
