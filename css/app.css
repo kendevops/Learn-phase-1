@@ -57,13 +57,20 @@ button {
   width: 100%;
 }
 
-.signup {
+.signup-in {
   text-align: center;
   padding-top: 30px;
   color: rgb(224, 222, 222);
 }
 
-.signup a {
+.signup-in a {
   text-decoration: none;
   color: #fff;
+}
+
+/* Styling of signup */
+.signup-body {
+}
+input::-webkit-calendar-picker-indicator {
+  opacity: 100;
 }
