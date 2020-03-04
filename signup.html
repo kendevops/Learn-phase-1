@@ -10,19 +10,18 @@
     <section class="container">
       <form action="" id="signup" class="form-signup">
         <label for="business">Business name</label>
-        <input type="text" id="business" />
+        <input type="text" id="business" class="input-details" />
         <label for="workEmail">Your work email address</label>
-        <input type="email" id="workEmail" />
+        <input type="email" id="workEmail" class="input-details" />
         <label for="pass">Password</label>
-        <input type="password" id="pass" />
+        <input type="password" id="pass" class="input-details" />
         <label for="country">Country</label>
         <input
           list="country"
           name="country"
-          class="datalist-input"
+          class="datalist-input input-details"
           placeholder="Nigeria"
         />
-        <i id="datalist-icon" class="icon iconfont icon-arrow"></i>
         <datalist id="country">
           <option value="Afghanistan" />
           <option value="Albania" />
@@ -179,7 +178,7 @@
           <option value="New Zealand" />
           <option value="Nicaragua" />
           <option value="Niger" />
-          <option value="Nigeria" selected />
+          <option value="Nigeria" />
           <option value="Niue" />
           <option value="Norfolk Island" />
           <option value="Northern Mariana Islands" />
@@ -264,11 +263,13 @@
           <option value="Zambia" />
           <option value="Zimbabwe" />
         </datalist>
-        <p>
+        <p class="info">
           Don't see your country? <a href="#">Let us know you're interested</a>
         </p>
-        <button type="submit" id="signup-button">Create My Account</button>
-        <p>
+        <button type="submit" id="signup-button" class="input-details">
+          Create My Account
+        </button>
+        <p class="info">
           By clicking the "Create My Account" button, you agree to Paystack's
           <a href="#">terms of acceptable use</a>.
         </p>

@@ -69,7 +69,21 @@ button {
 }
 
 /* Styling of signup */
-.signup-body {
+
+.container {
+  background-color: #fff;
+  width: 500px;
+  padding: 40px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.input-details {
+  width: 400px;
+  margin-bottom: 20px;
 }
 input::-webkit-calendar-picker-indicator {
   opacity: 100;
