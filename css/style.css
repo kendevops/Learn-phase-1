@@ -45,15 +45,18 @@ nav .list2 {
   justify-content: flex-end;
 }
 
-section {
+article {
   background-image: url(/img/curved-pattern.png);
   background-position: 0 50px;
   background-repeat: repeat-x;
-  height: 400px;
   background-size: auto 350px;
+  height: 400px;
+  padding: 100px;
+}
+
+section {
   display: flex;
   justify-content: space-between;
-  padding: 100px;
   width: 100%;
   color: #011b33;
 }
@@ -78,13 +81,9 @@ button {
   font-family: inherit;
   font-size: 1.5rem;
   white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
   height: 40px;
   line-height: 40px;
-  outline: none;
   padding-left: 1.2em;
   padding-right: 1.2em;
-  /* position: relative; */
   font-weight: 500;
 }
