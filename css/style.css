@@ -1,0 +1,26 @@
+/* Styling of the Main page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+
+nav {
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 50px;
+}
+
+ul li {
+}
+ul li img {
+  width: 100px;
+}
